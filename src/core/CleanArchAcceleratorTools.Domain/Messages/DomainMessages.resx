@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatter#35;s.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  <data name="InvalidPropertyAssign" xml:space="preserve">
+    <value>The value "{0}" is not valid for property "{1}".</value>
+  </data>
+  <data name="InvalidPropertyAssignWithAllowed" xml:space="preserve">
+    <value>The value "{0}"  is not valid for property "{1}. Only allowed "({2})"</value>
+  </data>
+  <data name="PropertyCannotBeEmpty" xml:space="preserve">
+    <value>The property "{0}" cannot be empty</value>
+  </data>
+  <data name="PropertyCannotBeNull" xml:space="preserve">
+    <value>The property"{0}" cannot be null</value>
+  </data>
+  <data name="PropertyListCannotContainsNullValue" xml:space="preserve">
+    <value>The list "{0}" cannot contains null values</value>
+  </data>
+  <data name="ValueMustBeGreaterThan" xml:space="preserve">
+    <value>The property "{0}" must have an value greater than "{1}"</value>
+  </data>
+  <data name="ValueMustBeLessThan" xml:space="preserve">
+    <value>The property "{0}" must have an value less than "{1}"</value>
+  </data>
+  <data name="ValueMustBeLessThanOrEqualTo" xml:space="preserve">
+    <value>The property "{0}" must have an value less than or equal to "{1}"</value>
+  </data>
+  <data name="ValueMustBeGreaterThanOrEqualTo" xml:space="preserve">
+    <value>The property "{0}" must have an value greater than or equal to "{1}"</value>
+  </data>
+  <data name="DefaultUnhandledErrorMessage" xml:space="preserve">
+    <value>An unhandled error occurred.</value>
+    <comment>Default message when exceptions are hidden from API responses</comment>
+  </data>
+  <data name="ExceptionMessageSeparator" xml:space="preserve">
+    <value>|||</value>
+    <comment>Separator used to split combined exception messages and traces</comment>
+  </data>
+  <data name="FieldDoesNotExistInEntity" xml:space="preserve">
+    <value>The field "{1}" does not exist in the entity "{0}"</value>
+    <comment>Used when a requested field is not found on the entity type. Parameters (alphabetical): entityName, fieldName</comment>
+  </data>
+  <data name="NoMoreParametersAvailable" xml:space="preserve">
+    <value>No more parameters available</value>
+    <comment>Thrown when the a..z internal parameter pool is exhausted</comment>
+  </data>
+  <data name="OperatorOnlyForStringFields" xml:space="preserve">
+    <value>The '{0}' operator can only be applied to string fields. Field '{1}' is of type '{2}'.</value>
+    <comment>Used when a string-only operator is applied to a non-string field. Parameters (alphabetical): comparisonOperator, fieldName, fieldTypeName</comment>
+  </data>
+  <data name="PropertyNotFoundOnType" xml:space="preserve">
+    <value>Property '{0}' was not found on type {1}</value>
+    <comment>Used when the requested property does not exist on the target type. Parameters (alphabetical): propertyName, typeName</comment>
+  </data>
+  <data name="DatedNotificationTemplate" xml:space="preserve">
+    <value>{0} ::: {1}</value>
+    <comment>Template for dated notifications. Parameters (alphabetical): message, timestamp</comment>
+  </data>
+  <data name="DatedNotificationTimestampFormat" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm:ss.fff</value>
+    <comment>Format string for the timestamp used in dated notifications</comment>
+  </data>
+  <data name="ErrorPersistingData" xml:space="preserve">
+    <value>An Error occurred when persisting data.</value>
+    <comment>Used when commit cannot proceed due to domain notifications</comment>
+  </data>
+  <data name="LogLabelDebug" xml:space="preserve">
+    <value>DEBUG</value>
+    <comment>Log label for debug severity</comment>
+  </data>
+  <data name="LogLabelError" xml:space="preserve">
+    <value>ERROR</value>
+    <comment>Log label for error severity</comment>
+  </data>
+  <data name="LogLabelInformation" xml:space="preserve">
+    <value>INFORMATION</value>
+    <comment>Log label for information severity</comment>
+  </data>
+  <data name="LogLabelTrace" xml:space="preserve">
+    <value>TRACE</value>
+    <comment>Log label for trace severity</comment>
+  </data>
+  <data name="LogLabelWarning" xml:space="preserve">
+    <value>WARNING</value>
+    <comment>Log label for warning severity</comment>
+  </data>
+  <data name="UnableToCastTypeToTargetType" xml:space="preserve">
+    <value>Unable to cast type "{0}" to target type "{1}".</value>
+    <comment>Used when casting the payload fails in ToTyped. Parameters (alphabetical): actualTypeName, targetTypeName</comment>
+  </data>
+  <data name="CollectionsNotSupportedFor" xml:space="preserve">
+    <value>Collections are not supported for "{0}"</value>
+    <comment>Thrown when a collection-typed property is used in clause filters. Parameters (alphabetical): argumentName</comment>
+  </data>
+  <data name="InvalidComparisonOperator" xml:space="preserve">
+    <value>Invalid operator '{0}'</value>
+    <comment>Used when an unsupported comparison operator is provided. Parameters (alphabetical): comparisonOperator</comment>
+  </data>
+  <data name="HandleAsyncReturnedNullOrInvalidTask" xml:space="preserve">
+    <value>HandleAsync on type "{0}" returned null or invalid Task.</value>
+    <comment>Used when the handler's HandleAsync returns null or invalid Task. Parameters (alphabetical): typeName</comment>
+  </data>
+  <data name="NoHandlerRegisteredExpectedService" xml:space="preserve">
+    <value>No handler registered. Expected service "{0}" for request type "{1}".</value>
+    <comment>Used when no request handler is registered. Parameters (alphabetical): handlerTypeName, requestTypeName</comment>
+  </data>
+  <data name="TypeDoesNotImplementHandleAsync" xml:space="preserve">
+    <value>Type "{0}" does not implement HandleAsync.</value>
+    <comment>Used when a type lacks a HandleAsync method. Parameters (alphabetical): typeName</comment>
+  </data>
+  <data name="EntityValidationKey" xml:space="preserve">
+    <value>EntityValidation</value>
+    <comment>Key used for entity validation notifications</comment>
+  </data>
+  <data name="ConfigurationTypeNotAssignableForEntity" xml:space="preserve">
+    <value>Configuration type '{0}' is not assignable to '{2}' for entity '{1}'.</value>
+    <comment>Used when a mapping configuration type is incompatible with the expected generic configuration. Parameters (alphabetical): configurationTypeFullName, entityTypeFullName, expectedGenericFullName</comment>
+  </data>
+  <data name="EntityNotConfiguredInDbContext" xml:space="preserve">
+    <value>The entity is not configured in the DbContext.</value>
+    <comment>Thrown when DbContext has no mapping for the entity type</comment>
+  </data>
+  <data name="PropertyMissingColumnMapping" xml:space="preserve">
+    <value>The property '{0}' does not have a column mapping in the database.</value>
+    <comment>Thrown when a mapped, writable property lacks a database column. Parameters (alphabetical): propertyName</comment>
+  </data>
+  <data name="ColumnOrderMustBeDefined" xml:space="preserve">
+    <value>Column order must be defined.</value>
+    <comment>Thrown when the column order mapping is null</comment>
+  </data>
+  <data name="ColumnDoesNotExistInDataTable" xml:space="preserve">
+    <value>Column '{0}' does not exist in the DataTable.</value>
+    <comment>Thrown when a column referenced in the order mapping is missing. Parameters (alphabetical): columnName</comment>
+  </data>
+  <data name="ParallelParametersMustBeGreaterThanZero" xml:space="preserve">
+    <value>The parameters '{0}', '{1}', '{2}' and '{3}' must be greater than 0.</value>
+    <comment>Used when any of the parallel parameters is less than 1. Parameters (alphabetical): batchSize, maxDegreeOfProcessesPerThread, maximumDegreeOfParalelism, totalRegisters</comment>
+  </data>
+  <data name="TraceInitializingParallelism" xml:space="preserve">
+    <value>Initializing parallelism</value>
+    <comment>Trace title indicating the start of parallel execution</comment>
+  </data>
+  <data name="TraceParallelismDetails" xml:space="preserve">
+    <value>Maximum threads: {0}, Processes per thread: {1}</value>
+    <comment>Trace details describing configured parallelism. Parameters (alphabetical): maxDegreeOfParallelism, maxDegreeOfProcessesPerThread</comment>
+  </data>
+  <data name="TraceTotalRecords" xml:space="preserve">
+    <value>Total records: {0}</value>
+    <comment>Trace label for total items to process. Parameters (alphabetical): totalRegisters</comment>
+  </data>
+  <data name="TraceBatchSize" xml:space="preserve">
+    <value>Batch size: {0}</value>
+    <comment>Trace label for batch size. Parameters (alphabetical): batchSize</comment>
+  </data>
+  <data name="TraceTotalRequiredIterations" xml:space="preserve">
+    <value>Total required iterations: {0}</value>
+    <comment>Trace label for the total number of iterations/batches. Parameters (alphabetical): totalBatches</comment>
+  </data>
+  <data name="TraceProcessingIterationRange" xml:space="preserve">
+    <value>Processing iteration range</value>
+    <comment>Trace title for a processing iteration range segment</comment>
+  </data>
+  <data name="TraceProcessingIterationRangeDetails" xml:space="preserve">
+    <value>{0} to {1} of {2}</value>
+    <comment>Trace details showing the iteration start and end in relation to the total. Parameters (alphabetical): endIndex, startIndex, totalBatches</comment>
+  </data>
+  <data name="TraceQueryFinished" xml:space="preserve">
+    <value>A query has finished</value>
+    <comment>Trace title indicating a single query task completed</comment>
+  </data>
+  <data name="TraceIterationLabel" xml:space="preserve">
+    <value>Iteration: {0}</value>
+    <comment>Label used to indicate the iteration number. Parameters (alphabetical): iterationIndex</comment>
+  </data>
+  <data name="EntityWithIdNotFound" xml:space="preserve">
+    <value>Entity with id {0} not found.</value>
+    <comment>Thrown when a requested entity id is not found. Parameters (alphabetical): id</comment>
+  </data>
+  <data name="InvalidOrderDirectionInDynamicSort" xml:space="preserve">
+    <value>Invalid order direction in dynamic sort.</value>
+    <comment>Thrown when an unknown sort order is used in dynamic sort</comment>
+  </data>
+  <data name="SomeEntitiesWereNotFoundIds" xml:space="preserve">
+    <value>Some entities were not found, ids: {0}.</value>
+    <comment>Thrown when a set of ids do not match existing entities. Parameters (alphabetical): idsList</comment>
+  </data>
+  <data name="UnsupportedTypeForProperty" xml:space="preserve">
+    <value>Unsupported type '{1}' for property '{0}'.</value>
+    <comment>Thrown when a property's type is not supported for selection binding. Parameters (alphabetical): propertyName, typeName</comment>
+  </data>
+    <data name="NoRegisteredContextFoundForKey" xml:space="preserve">
+    <value>No registered context found for key '{0}'.</value>
+    <comment>Thrown when CommitAsync(key) is called and no context is registered for the given key. Parameters (alphabetical): key</comment>
+  </data>
+  <data name="NoWorkingContexts" xml:space="preserve">
+    <value>No working contexts.</value>
+    <comment>Thrown when the contexts list for a given key is null or empty.</comment>
+  </data>
+</root>

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <PackageId>CleanArchAcceleratorTools.Controller</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Nilson Durval</Authors>
+    <Description>This module is part of CleanArchAcceleratorTools, a toolkit to accelerate building applications with Clean Architecture.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/mr-nsn/CleanArchAcceleratorTools.git</RepositoryUrl>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="LICENSE" Pack="true" PackagePath="">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <ProjectReference Include="..\CleanArchAcceleratorTools.Application\CleanArchAcceleratorTools.Application.csproj" />
+  </ItemGroup>
+
+</Project>
