@@ -46,6 +46,20 @@ This example includes both EF Core InMemory and SQL Server packages. Typical usa
     ./ef-migration.bat InitialCreation
     ```
 
+## You should see something like this:
+![Swagger UI Screenshot](../../../docs/swagger-ui-screenshot.png)
+
+## Now you can make your queries! The examples project automatically seeds some data on startup.
+```csharp
+...
+
+app.SeedContext();
+
+...
+```
+
+You can change the seed data by modifying the `DbInitializer` class:
+
 ## Troubleshooting
 - SDK not found: Ensure .NET 9.0 SDK is installed (`dotnet --info`).
 - Swagger not loading: Confirm the app URL/port from the console output and that `/swagger` is enabled.
