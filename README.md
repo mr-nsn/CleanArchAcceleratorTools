@@ -46,14 +46,14 @@ Use an EF Core version compatible with the chosen target framework.
 Use the all-in-one when you don’t need module separation:
 
 ```bash
-dotnet add package CleanArchAcceleratorTools.AllInOne --version 1.0.0
+dotnet add package CleanArchAcceleratorTools.AllInOne --version x.x.x
 ```
 Or install individual modules as needed:
 ```bash
-dotnet add package CleanArchAcceleratorTools.Controller --version 1.0.0
-dotnet add package CleanArchAcceleratorTools.Application --version 1.0.0
-dotnet add package CleanArchAcceleratorTools.Domain --version 1.0.0
-dotnet add package CleanArchAcceleratorTools.Infrastructure --version 1.0.0
+dotnet add package CleanArchAcceleratorTools.Controller --version x.x.x
+dotnet add package CleanArchAcceleratorTools.Application --version x.x.x
+dotnet add package CleanArchAcceleratorTools.Domain --version x.x.x
+dotnet add package CleanArchAcceleratorTools.Infrastructure --version x.x.x
 ```
 
 ## Example
