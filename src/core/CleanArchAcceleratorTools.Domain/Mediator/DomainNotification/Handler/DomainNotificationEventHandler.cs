@@ -57,6 +57,16 @@ public class DomainNotificationEventHandler : INotificationHandler<DomainNotific
     }
 
     /// <summary>
+    /// Retrieves notifications, filtered by key.
+    /// </summary>
+    /// <param name="key">Key to filter notifications.</param>
+    /// <returns>List of matching notifications.</returns>
+    public List<DomainNotificationEvent> GetNotifications(string key)
+    {
+        return _notifications.Where(x => x.Key == key).ToList();
+    }
+
+    /// <summary>
     /// Checks if any error notifications exist.
     /// </summary>
     /// <returns><c>true</c> if errors exist; otherwise, <c>false</c>.</returns>
