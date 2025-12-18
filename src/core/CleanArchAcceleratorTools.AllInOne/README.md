@@ -38,7 +38,7 @@ Use an EF Core version compatible with your target framework.
 
 ### 🚀 Installation
 ``` bash
-dotnet add package CleanArchAcceleratorTools.AllInOne --version 1.0.0
+dotnet add package CleanArchAcceleratorTools.AllInOne --version x.x.x
 ```
 
 ## ⚡ Quickstart

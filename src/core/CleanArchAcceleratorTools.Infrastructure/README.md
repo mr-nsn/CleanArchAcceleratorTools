@@ -60,7 +60,7 @@ Use an EF Core version compatible with your target framework.
 
 ### 🚀 Installation
 ``` bash
-dotnet add package CleanArchAcceleratorTools.Infrastructure --version 1.0.0
+dotnet add package CleanArchAcceleratorTools.Infrastructure --version x.x.x
 ```
 
 ## ⚡ Quickstart
