@@ -30,6 +30,7 @@ public class CourseRepository : GenericRepository<Course>, ICourseRepository
         _registeredContextFactory = registeredContextFactory;
         _logger = logger;
     }
+
     public async Task<ICollection<Course>> GetAllParallelAsync()
     {
         return await ParallelQueryExecutor.DoItParallelAsync

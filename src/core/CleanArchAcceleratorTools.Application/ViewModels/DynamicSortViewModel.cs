@@ -12,7 +12,7 @@ public class DynamicSortViewModel<TEntityViewModel>
     /// <summary>
     /// Collection of field order definitions (field and direction).
     /// </summary>
-    public ICollection<FieldSortViewModel<TEntityViewModel>>? FieldsOrder { get; set; }
+    public ICollection<FieldSortViewModel<TEntityViewModel>>? FieldsSort { get; set; }
 }
 
 /// <summary>
