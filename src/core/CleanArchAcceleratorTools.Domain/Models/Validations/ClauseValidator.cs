@@ -101,13 +101,6 @@ internal class ClauseValidator<TEntity> : AbstractValidator<Clause<TEntity>> whe
     /// </summary>
     private void Value()
     {
-        RuleFor(x => x.Value)
-            .NotEmpty()
-            .WithMessage(x =>
-            {
-                var property = $"{nameof(Clause<TEntity>)}.{nameof(Clause<TEntity>.Value)}";
-                return DomainMessages.PropertyCannotBeEmpty.ToFormat(property);
-            });
     }
 
     #region Auxiliary Methods
